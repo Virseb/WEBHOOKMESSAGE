@@ -1,5 +1,5 @@
 local webhk = {}
-local function hook(url,msg)
+local function webhk.hook(url,msg)
 local webhookUrl = tostring(url)
 
 local HttpService = game:GetService("HttpService")
